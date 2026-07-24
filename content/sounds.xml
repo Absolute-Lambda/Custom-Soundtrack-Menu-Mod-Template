@@ -1,0 +1,30 @@
+<sounds root="sfx/">
+
+	<!-- Note: Use CTRL+H (If in notepad++) to replace instances of "Template Soundtrack" with whatever your mod is called -->
+
+    <!-- Template Soundtrack -->
+	<sound name="Template Soundtrack Treasure Room Entry (jingle) 1">
+		<sample weight="1" path="Template Soundtrack/treasure room discovera.wav" />
+	</sound>
+	<sound name="Template Soundtrack Treasure Room Entry (jingle) 2">
+		<sample weight="1" path="Template Soundtrack/treasure room discoverb.wav" />
+	</sound>
+	<sound name="Template Soundtrack Treasure Room Entry (jingle) 3">
+		<sample weight="1" path="Template Soundtrack/treasure room discoverc.wav" />
+	</sound>
+	<sound name="Template Soundtrack Treasure Room Entry (jingle) 4">
+		<sample weight="1" path="Template Soundtrack/treasure room discover_03.wav" />
+	</sound>
+	<sound name="Template Soundtrack Secret Room Find (jingle)">
+		<sample weight="1" path="Template Soundtrack/secret room find v2_07.wav" />
+	</sound>
+	<sound name="Template Soundtrack Devil Room appear (jingle)">
+		<sample weight="1" path="Template Soundtrack/satan room appear v2_01.wav" />
+	</sound>
+	<sound name="Template Soundtrack Holy Room Find (jingle)">
+		<sample weight="1" path="Template Soundtrack/choir.wav" />
+	</sound>
+	<sound name="Template Soundtrack Strange Door (jingle)">
+		<sample weight="1" path="Template Soundtrack/genesis_sfx_jingle.wav" />
+	</sound>
+</sounds>
