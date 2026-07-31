@@ -1,114 +1,273 @@
-<music root="music/">
-	<!-- Note: Use CTRL+H (If in notepad++) and "Replace All" to replace instances of "Template Soundtrack" with whatever your mod is called -->
+<music root="music/Template Soundtrack/">
+<!-- 
 
-	<!-- Template Soundtrack -->
-    <track name="Template Soundtrack Basement" intro="Template Soundtrack/Diptera Sonata Intro.ogg" path="Template Soundtrack/Diptera Sonata(Basement).ogg" layerintro="Template Soundtrack/Diptera Layer Intro.ogg" layer="Template Soundtrack/Diptera Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Cellar" intro="Template Soundtrack/The Cellar Alt Intro.ogg" path="Template Soundtrack/The Cellar Alt.ogg" layerintro="Template Soundtrack/The Cellar Layer Intro.ogg" layer="Template Soundtrack/The Cellar Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Burning Basement" intro="Template Soundtrack/burning basement Intro.ogg" path="Template Soundtrack/burning basement Loop.ogg" layerintro="Template Soundtrack/burning basement Intro silent.ogg" layer="Template Soundtrack/Burning Basement GUitar Layer_04.ogg" loop="true" />
-	<track name="Template Soundtrack Caves" intro="Template Soundtrack/The Caves Intro.ogg" path="Template Soundtrack/The Caves.ogg" layerintro="Template Soundtrack/The Caves Layer Intro.ogg" layer="Template Soundtrack/The Caves Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Catacombs" intro="Template Soundtrack/Catacombs Intro.ogg" path="Template Soundtrack/Catacombs.ogg" layerintro="Template Soundtrack/Catacombs Layer Intro.ogg" layer="Template Soundtrack/Catacombs Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Flooded Caves" intro="Template Soundtrack/Kave Diluvii (Flooded Caves)Intro.ogg" path="Template Soundtrack/Kave Diluvii (Flooded Caves) loop.ogg" layerintro="Template Soundtrack/Kave Diluvii (Flooded Caves)Intro silent.ogg" layer="Template Soundtrack/Kave Diluvii (Flooded Caves) Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Depths" intro="Template Soundtrack/The Depths Intro.ogg" path="Template Soundtrack/The Depths.ogg" layerintro="Template Soundtrack/The Depths Layer Intro.ogg" layer="Template Soundtrack/The Depths Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Necropolis" intro="Template Soundtrack/Necropolis Intro.ogg" path="Template Soundtrack/Necropolis.ogg" layerintro="Template Soundtrack/Necropolis Layer Intro.ogg" layer="Template Soundtrack/Necropolis Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Dank Depths" intro="Template Soundtrack/Pulso Profundum (dank Depths ) intro.ogg" path="Template Soundtrack/Pulso Profundum (dank Depths ) Loop.ogg" layerintro="Template Soundtrack/Pulso Profundum (dank Depths ) intro silent.ogg" layer="Template Soundtrack/Pulso Profundum (dank Depths ) Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Womb/Utero" intro="Template Soundtrack/The Womb Chapter Four Intro.ogg" path="Template Soundtrack/The Womb Chapter Four.ogg" layerintro="Template Soundtrack/The Womb Layer Intro.ogg" layer="Template Soundtrack/The Womb Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Scarred Womb" intro="Template Soundtrack/Cicatrix (Scarred Womb) Intro.ogg" path="Template Soundtrack/Cicatrix (Scarred Womb) Loop.ogg" layerintro="Template Soundtrack/Cicatrix (Scarred Womb) Intro silent.ogg" layer="Template Soundtrack/Cicatrix (Scarred Womb) Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Blue Womb" intro="Template Soundtrack/Nativitate  (Dead Womb Floor) Intro.ogg" path="Template Soundtrack/Nativitate (Dead Womb Floor) Loop.ogg" layerintro="Template Soundtrack/Nativitate  (Dead Womb Floor) Intro silence.ogg" layer="Template Soundtrack/Nativitate (Dead Womb Floor) Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Sheol" intro="Template Soundtrack/Sheol Intro.ogg" path="Template Soundtrack/Sheol.ogg" layerintro="Template Soundtrack/Sheol Layer Intro.ogg" layer="Template Soundtrack/Sheol Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Cathedral" intro="Template Soundtrack/Cathedral Intro.ogg" path="Template Soundtrack/Cathedral Chant.ogg" layerintro="Template Soundtrack/Cathedral Layer Intro.ogg" layer="Template Soundtrack/Cathedral Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Dark Room" intro="Template Soundtrack/Dark Room Alt Chapter 6 intro.ogg" path="Template Soundtrack/Dark Room Alt Chapter 6.ogg" loop="true" />
-	<track name="Template Soundtrack Chest" intro="Template Soundtrack/Chest Room Intro.ogg" path="Template Soundtrack/Chest Room Chapter 6.ogg" layerintro="Template Soundtrack/Chest Layer Intro.ogg" layer="Template Soundtrack/Chest Layer.ogg" loop="true" />
-	<track name="Template Soundtrack Void" path="Template Soundtrack/Void.ogg" loop="true" />
-	<track name="Template Soundtrack Boss" path="Template Soundtrack/Basic Boss Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Depths - Mom)" path="Template Soundtrack/Mom Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Womb - Mom's Heart)" path="Template Soundtrack/Womb Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Cathedral - Isaac)" path="Template Soundtrack/Isaac Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Sheol - Satan)" path="Template Soundtrack/Satan Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Dark Room)" path="Template Soundtrack/Dark Room Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Chest - ???)" path="Template Soundtrack/Chest Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (alternate)" intro="Template Soundtrack/Cerebrum Dispersio (boss alt ) intro.ogg" path="Template Soundtrack/Cerebrum Dispersio (boss alt) Loop.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Blue Womb - Hush)" intro="Template Soundtrack/Morituros (dead womb boss) intro.ogg" path="Template Soundtrack/Morituros (dead womb boss) Loop.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Mega Satan)" path="Template Soundtrack/Satan Fight.ogg" loop="true" />
-    <track name="Template Soundtrack Boss (Ultra Greed)" intro="Template Soundtrack/Chorus Mortis (Punk Credit) Intro.ogg" path="Template Soundtrack/Chorus Mortis (Punk Credit) Loop.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Void)" path="Template Soundtrack/Delirium Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss Room (empty)" intro="Template Soundtrack/The Calm intro.ogg" path="Template Soundtrack/The Calm.ogg" loop="true" />
-	<track name="Template Soundtrack Challenge Room (fight)" path="Template Soundtrack/Ambush.ogg" loop="true" />
-	<track name="Template Soundtrack Library Room" intro="Template Soundtrack/Library Intro.ogg" path="Template Soundtrack/Library.ogg" loop="true" />
-	<track name="Template Soundtrack Secret Room" intro="Template Soundtrack/Secret to Everyone Intro.ogg" path="Template Soundtrack/Secret to Everyone.ogg" loop="true" />
-	<track name="Template Soundtrack Devil Room" path="Template Soundtrack/Deal With the Devil.ogg" loop="true" />
-	<track name="Template Soundtrack Angel Room" intro="Template Soundtrack/Angel Room intro.ogg" path="Template Soundtrack/Angel Room.ogg" loop="true" />
-    <track name="Template Soundtrack Shop Room" intro="Template Soundtrack/Store Loop Intro.ogg" path="Template Soundtrack/Store Loop.ogg" loop="true" />
-    <track name="Template Soundtrack Arcade Room" intro="Template Soundtrack/Retro Beats Intro 8-6-14.ogg" path="Template Soundtrack/Retro Beats 8-6-14.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (jingle)" path="Template Soundtrack/Boss Fight intro jingle V2.1.ogg" loop="false" />
-	<track name="Template Soundtrack Boss Death (jingle)" path="Template Soundtrack/Boss FIght jingle OUTRO v2_12.ogg" loop="false" />
-	<track name="Template Soundtrack Holy Room Find (jingle)" path="Template Soundtrack/choir.ogg" loop="false" />
-	<track name="Template Soundtrack Secret Room Find (jingle)" path="Template Soundtrack/secret room find v2_07.ogg" loop="false" />
-	<track name="Template Soundtrack Treasure Room Entry (jingle) 1" path="Template Soundtrack/treasure room discoverA.ogg" loop="false" />
-	<track name="Template Soundtrack Treasure Room Entry (jingle) 2" path="Template Soundtrack/treasure room discoverB.ogg" loop="false" />
-	<track name="Template Soundtrack Treasure Room Entry (jingle) 3" path="Template Soundtrack/treasure room discoverC.ogg" loop="false" />
-	<track name="Template Soundtrack Treasure Room Entry (jingle) 4" path="Template Soundtrack/treasure room discover_03.ogg" loop="false" />
-	<track name="Template Soundtrack Challenge Room Entry (jingle)" path="Template Soundtrack/Ambush jingle.V2_01.ogg" loop="false" />
-	<track name="Template Soundtrack Challenge Room Outro (jingle)" path="Template Soundtrack/Ambush Jinle outro V3_04.ogg" loop="false" />
-	<track name="Template Soundtrack Devil Room appear (jingle)" path="Template Soundtrack/Satan Room Appear V2_01.ogg" loop="false" />
-	<track name="Template Soundtrack Boss Death Alternate (jingle)" path="Template Soundtrack/Cerebrum Dispersio (boss alt) end.ogg" loop="false" />
-	<track name="Template Soundtrack Boss Hush Death (jingle)" path="Template Soundtrack/Morituros (dead womb boss) outro.ogg" loop="false" />
+ANYTHING BETWEEN "<!-—" AND "—->"
+WILL NOT BE LOADED BY THE GAME
+
+you can use these 'comment' tags to remove tracks you
+aren't using while still keeping the code handy
+
+if you want to add audio for a track that is 'commented out'
+below (e.g. Sacrifice Room) you can either delete the
+"<!-—" and "—->" tags around it or move it outside of the tags
+
+any tracks that aren't in this file or are inside comment tags
+will automatically be replaced by default music, so if you
+don't have any custom audio for a track, either delete that track
+from this file, or put the tracks code inside comment tags
+
+if you want a track to be silent rather than using default music
+just use an audio file with 1 second of silence
+
+
+Volume
+if a track is a bit loud or quiet compared to the other songs
+you can add the mul="1.0" tag and change the number
+using a number higher than 1 is louder, lower is quieter
+e.g. mul="1.5"  mul="0.7"
+
+
+Intros
+tracks that loop can have intros, when the song starts it will play
+the intro once then it will play the 'loop' audio, once the 'loop'
+audio finishes it will restart without playing the intro again
+
+if a song you're using has an intro you can cut it into a separate
+ogg file and include it using the intro="" tag like this
+<track name="Track Type" intro="intro.ogg" path="loop.ogg" loop="true" />
+
+
+Layers
+tracks can have layers, in most cases the layer will just fade in
+over the song when there are enemies in the room, but some specific
+tracks have special cases for layers (such as main menu and beast fight)
+
+generally layers are added like this, with layer="" and layerintro="" tags
+<track name="Track Type" intro="intro.ogg" path="music.ogg" layerintro="layerintro.ogg" layer="layer.ogg" loop="true" />
+if your track doesn't use an intro you can remove the intro="" and layerintro="" tags
+
+if you want the layer to play by itself when its triggered, rather than
+playing on top of the base track you can add layermode="2" to the tracks code
+
+also none of the tracks actually need layers, so for example
+if you wanted the Beast fight to just be one song you can replace
+<track name="Template Soundtrack Boss (Beast)" path="The_End_FAMINE.ogg" loop="true" layermode="2" layerfadespeed="0.01" mul="1.5">
+    <layer path="The_End_PESTILENCE.ogg" mul="1.5" />
+    <layer path="The_End_WAR.ogg" mul="1.5" />
+    <layer path="The_End_DEATH.ogg" mul="1.5" />
+    <layer path="The_End_BEAST.ogg" mul="2" />
+</track>
+with
+<track name="Template Soundtrack Boss (Beast)" path="The_End_FAMINE.ogg" loop="true" />
+
+
+Variants
+if you want a certain track type to have multiple possible songs
+you can duplicate the code for that track type, give it a different
+audio file and add numbers to the end of the tracks names, e.g.
+<track name="Template Soundtrack Basement 1" path="Basement1.ogg" loop="true" />
+<track name="Template Soundtrack Basement 2" path="Basement2.ogg" loop="true" />
+<track name="Template Soundtrack Basement 3" path="Basement3.ogg" loop="true" />
+<track name="Template Soundtrack Basement 4" path="Basement4.ogg" loop="true" />
+
+-->
+
+	<!-- Floors -->
+	<track name="Template Soundtrack Basement" intro="Diptera Sonata Intro.ogg" path="Diptera Sonata(Basement).ogg" layerintro="Diptera Layer Intro.ogg" layer="Diptera Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Cellar" intro="The Cellar Alt Intro.ogg" path="The Cellar Alt.ogg" layerintro="The Cellar Layer Intro.ogg" layer="The Cellar Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Burning Basement" intro="burning basement Intro.ogg" path="burning basement Loop.ogg" layerintro="burning basement Intro silent.ogg" layer="Burning Basement GUitar Layer_04.ogg" loop="true" />
+	<track name="Template Soundtrack Caves" intro="The Caves Intro.ogg" path="The Caves.ogg" layerintro="The Caves Layer Intro.ogg" layer="The Caves Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Catacombs" intro="Catacombs Intro.ogg" path="Catacombs.ogg" layerintro="Catacombs Layer Intro.ogg" layer="Catacombs Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Flooded Caves" intro="Kave Diluvii (Flooded Caves)Intro.ogg" path="Kave Diluvii (Flooded Caves) loop.ogg" layerintro="Kave Diluvii (Flooded Caves)Intro silent.ogg" layer="Kave Diluvii (Flooded Caves) Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Depths" intro="The Depths Intro.ogg" path="The Depths.ogg" layerintro="The Depths Layer Intro.ogg" layer="The Depths Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Necropolis" intro="Necropolis Intro.ogg" path="Necropolis.ogg" layerintro="Necropolis Layer Intro.ogg" layer="Necropolis Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Dank Depths" intro="Pulso Profundum (dank Depths ) intro.ogg" path="Pulso Profundum (dank Depths ) Loop.ogg" layerintro="Pulso Profundum (dank Depths ) intro silent.ogg" layer="Pulso Profundum (dank Depths ) Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Womb/Utero" intro="The Womb Chapter Four Intro.ogg" path="The Womb Chapter Four.ogg" layerintro="The Womb Layer Intro.ogg" layer="The Womb Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Scarred Womb" intro="Cicatrix (Scarred Womb) Intro.ogg" path="Cicatrix (Scarred Womb) Loop.ogg" layerintro="Cicatrix (Scarred Womb) Intro silent.ogg" layer="Cicatrix (Scarred Womb) Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Blue Womb" intro="Nativitate  (Dead Womb Floor) Intro.ogg" path="Nativitate (Dead Womb Floor) Loop.ogg" layerintro="Nativitate  (Dead Womb Floor) Intro silence.ogg" layer="Nativitate (Dead Womb Floor) Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Sheol" intro="Sheol Intro.ogg" path="Sheol.ogg" layerintro="Sheol Layer Intro.ogg" layer="Sheol Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Cathedral" intro="Cathedral Intro.ogg" path="Cathedral Chant.ogg" layerintro="Cathedral Layer Intro.ogg" layer="Cathedral Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Dark Room" intro="Dark Room Alt Chapter 6 intro.ogg" path="Dark Room Alt Chapter 6.ogg" loop="true" />
+	<track name="Template Soundtrack Chest" intro="Chest Room Intro.ogg" path="Chest Room Chapter 6.ogg" layerintro="Chest Layer Intro.ogg" layer="Chest Layer.ogg" loop="true" />
+	<track name="Template Soundtrack Void" path="Void.ogg" loop="true" />
 	
-	<track name="Template Soundtrack Utero" path="Template Soundtrack/Repentance/Utero.ogg" layer="Template Soundtrack/Repentance/Utero Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Downpour" path="Template Soundtrack/Repentance/Downpour.ogg" layer="Template Soundtrack/Repentance/Downpour Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Dross" path="Template Soundtrack/Repentance/Sewer.ogg" layer="Template Soundtrack/Repentance/Sewer Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Mines" path="Template Soundtrack/Repentance/Mines.ogg" layer="Template Soundtrack/Repentance/Mines Heavy.ogg" loop="true" layermode="2" mul="1.15" layermul="1.35" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Ashpit" intro="Template Soundtrack/Repentance/Ash Pit Intro.ogg" path="Template Soundtrack/Repentance/Ash Pit.ogg" layerintro="Template Soundtrack/Repentance/Ash Pit Heavy Intro.ogg" layer="Template Soundtrack/Repentance/Ash Pit Heavy.ogg" loop="true" layermode="2" mul="1.55" layermul="1.75" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Mausoleum" path="Template Soundtrack/Repentance/Mausoleum.ogg" layer="Template Soundtrack/Repentance/Mausoleum Heavy.ogg" loop="true" layermode="2" layermul="1.2" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Gehenna" path="Template Soundtrack/Repentance/Gehenna.ogg" layer="Template Soundtrack/Repentance/Gehenna Heavy.ogg" loop="true" layerfadespeed="0.005" mul="1.5" layermul="1.75" />
-	<track name="Template Soundtrack Corpse" path="Template Soundtrack/Repentance/Corpse.ogg" layer="Template Soundtrack/Repentance/Corpse Layer.ogg" loop="true" layerfadespeed="0.005" />
-	<track name="Template Soundtrack Home" path="Template Soundtrack/Repentance/Echoes Of Mom.ogg" layer="Template Soundtrack/Repentance/Echoes of Mom Twisted V2.ogg" loop="true" layerfadespeed="0.005" layermode="2" />
-	<track name="Template Soundtrack Abandoned Mineshaft" path="Template Soundtrack/Repentance/Vast Empty Chasm.ogg" loop="true" />
-	<track name="Template Soundtrack Mineshaft Escape" path="Template Soundtrack/Repentance/Chased By Death V3.ogg" loop="true" />
-	<track name="Template Soundtrack Planetarium" path="Template Soundtrack/Repentance/Planetarium.ogg" loop="true" />
-	<track name="Template Soundtrack Secret Room Alt" path="Template Soundtrack/Repentance/Secret Room ALT.ogg" loop="true" />
-	<track name="Template Soundtrack Secret Room Alt Alt" intro="Template Soundtrack/Repentance/Super Secret Room Intro.ogg" path="Template Soundtrack/Repentance/Super Secret Room Loop.ogg" loop="true" />
-	<track name="Template Soundtrack Boss Rush" path="Template Soundtrack/Repentance/Boss Rush.ogg" loop="true" />
-	<track name="Template Soundtrack Boss Rush (jingle)" path="Template Soundtrack/Ambush Jinle outro V3_04.ogg" loop="false" />
-	<track name="Template Soundtrack Boss Room (empty, twisted)" intro="Template Soundtrack/Repentance/The Calm Twisted V4 Intro.ogg" path="Template Soundtrack/Repentance/The Calm Twisted V4 Loop.ogg" loop="true" mul="1.2" />
-	<track name="Template Soundtrack Mom's Shadow Intro" path="Template Soundtrack/Repentance/Moms_Shadow_Cut_Scene.ogg" loop="false" />
-	<track name="Template Soundtrack Strange Door (jingle)" path="Template Soundtrack/Repentance/Genesis_SFX_Jingle.ogg" loop="false" />
-	<track name="Template Soundtrack Echoes Reverse" path="Template Soundtrack/Repentance/echoes of mom twisted v2.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (alternate alternate)" path="Template Soundtrack/Repentance/Boss ALT.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Hush Phase 1)" path="Template Soundtrack/Chest Fight.ogg" loop="true" />
-	<track name="Template Soundtrack Boss (Mother)" path="Template Soundtrack/Repentance/MOTHER_BOSS_V6.ogg" loop="true" mul="1.25" />
-	<track name="Template Soundtrack Dogma Intro" path="Template Soundtrack/Repentance/Dogma_static_Cut_Scene_V5.ogg" loop="false" mul="1.5" />
-	<track name="Template Soundtrack Boss (Dogma)" path="Template Soundtrack/Repentance/Static Boss Light V2.ogg" loop="true" layermode="2" layerfadespeed="0.008">
-		<layer path="Template Soundtrack/Repentance/Static Boss V2 with Preachers V3.ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/Static.ogg" mul="1" />
-	</track>
-	<track name="Template Soundtrack Boss (Beast)" path="Template Soundtrack/Repentance/The_End_FAMINE.ogg" loop="true" layermode="2" layerfadespeed="0.01" mul="1.5">
-		<layer path="Template Soundtrack/Repentance/The_End_PESTILENCE.ogg" mul="1.5" />
-		<layer path="Template Soundtrack/Repentance/The_End_WAR.ogg" mul="1.5" />
-		<layer path="Template Soundtrack/Repentance/The_End_DEATH.ogg" mul="1.5" />
-		<layer path="Template Soundtrack/Repentance/The_End_BEAST.ogg" mul="2" />
-	</track>
-	<track name="Template Soundtrack Boss Death Alternate Alternate (jingle)" path="Template Soundtrack/Repentance/Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
-	<track name="Template Soundtrack Boss Mother Death (jingle)" path="Template Soundtrack/Repentance/Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
-	<track name="Template Soundtrack Boss Dogma Death (jingle)" path="Template Soundtrack/Repentance/Static Boss Light V2 Jingle.ogg" loop="false" mul="1.5" />
-	<track name="Template Soundtrack Boss Beast Death (jingle)" path="Template Soundtrack/Repentance/Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
-	<track name="Template Soundtrack Downpour (reversed)" path="Template Soundtrack/Repentance/Downpour Reverse.ogg" loop="true" />
-	<track name="Template Soundtrack Dross (reversed)" path="Template Soundtrack/Repentance/Dross Reverse.ogg" loop="true" mul="1.2" />
-	<track name="Template Soundtrack Genesis (reversed)" path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Main Loop.ogg" loop="true" mul="1.2">
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Basement Layer (Drums).ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Caves Layer (Bass).ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Depths Layer (Guitar).ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Downpour Layer (Guitar).ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Mines Layer (Drumz).ogg" mul="1.2" />
-		<layer path="Template Soundtrack/Repentance/backwards/Genesis ii Reverse Mausoleum Layer (Bass).ogg" mul="1.2" />
-	</track>
-	<track name="Template Soundtrack Game Over (jingle)" path="Template Soundtrack/Isaac Died_02.ogg" loop="false" />
-	<track name="Template Soundtrack Game Over" path="Template Soundtrack/You Died.ogg" loop="true" />
+	<!-- Fights -->
+	<track name="Template Soundtrack Boss" path="Basic Boss Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Depths - Mom)" path="Mom Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Womb - Mom's Heart)" path="Womb Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Cathedral - Isaac)" path="Isaac Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Sheol - Satan)" path="Satan Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Dark Room)" path="Dark Room Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Chest - ???)" path="Chest Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (alternate)" intro="Cerebrum Dispersio (boss alt ) intro.ogg" path="Cerebrum Dispersio (boss alt) Loop.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Blue Womb - Hush)" intro="Morituros (dead womb boss) intro.ogg" path="Morituros (dead womb boss) Loop.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Mega Satan)" path="Satan Fight.ogg" loop="true" />
+    <track name="Template Soundtrack Boss (Ultra Greed)" intro="Chorus Mortis (Punk Credit) Intro.ogg" path="Chorus Mortis (Punk Credit) Loop.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Void)" path="Delirium Fight.ogg" loop="true" />
+	<track name="Template Soundtrack Challenge Room (fight)" path="Ambush.ogg" loop="true" />
 	
-    <track name="Template Soundtrack Main Menu" intro="Template Soundtrack/Repentance/Genesis Retake Light Intro.ogg" path="Template Soundtrack/Repentance/Genesis Retake Light Loop.ogg" layerintro="Template Soundtrack/Repentance/Genesis Retake Twisted Intro.ogg" layer="Template Soundtrack/Repentance/Genesis Retake Twisted Loop.ogg" loop="true" layermode="2" layerfadespeed="0.01" />
-    <track name="Template Soundtrack Run Start" path="Template Soundtrack/Title Screen jingle V1_01.ogg" loop="false" />
-    <track name="Template Soundtrack Tainted Run Start" path="Template Soundtrack/Repentance/Title Screen Stinger MB.ogg" loop="false" />
-    <track name="Template Soundtrack Nightmare" path="Template Soundtrack/boss fight intro jingle_01.ogg" loop="false" />
-	<track name="Template Soundtrack Dogma Nightmare" path="Template Soundtrack/Nightmare_V4.ogg" loop="false" />
-    <track name="Template Soundtrack Deathmatch" path="Template Soundtrack/Repentance/Deathmatch.ogg" loop="true" />
-    <track name="Template Soundtrack Death Certificate" path="Template Soundtrack/Repentance/Echoes Reverse.ogg" loop="true" />
+	<!-- Rooms -->
+	<track name="Template Soundtrack Library Room" intro="Library Intro.ogg" path="Library.ogg" loop="true" />
+	<track name="Template Soundtrack Secret Room" intro="Secret to Everyone Intro.ogg" path="Secret to Everyone.ogg" loop="true" />
+	<track name="Template Soundtrack Devil Room" path="Deal With the Devil.ogg" loop="true" />
+	<track name="Template Soundtrack Angel Room" intro="Angel Room intro.ogg" path="Angel Room.ogg" loop="true" />
+    <track name="Template Soundtrack Shop Room" intro="Store Loop Intro.ogg" path="Store Loop.ogg" loop="true" />
+    <track name="Template Soundtrack Arcade Room" intro="Retro Beats Intro 8-6-14.ogg" path="Retro Beats 8-6-14.ogg" loop="true" />
+	<track name="Template Soundtrack Boss Room (empty)" intro="The Calm intro.ogg" path="The Calm.ogg" loop="true" />
+	
+	<!-- Jingles -->
+	<track name="Template Soundtrack Boss (jingle)" path="Boss Fight intro jingle V2.1.ogg" loop="false" />
+	<track name="Template Soundtrack Boss Death (jingle)" path="Boss FIght jingle OUTRO v2_12.ogg" loop="false" />
+	<track name="Template Soundtrack Holy Room Find (jingle)" path="choir.ogg" loop="false" />
+	<track name="Template Soundtrack Secret Room Find (jingle)" path="secret room find v2_07.ogg" loop="false" />
+	<track name="Template Soundtrack Treasure Room Entry (jingle) 1" path="treasure room discoverA.ogg" loop="false" />
+	<track name="Template Soundtrack Treasure Room Entry (jingle) 2" path="treasure room discoverB.ogg" loop="false" />
+	<track name="Template Soundtrack Treasure Room Entry (jingle) 3" path="treasure room discoverC.ogg" loop="false" />
+	<track name="Template Soundtrack Treasure Room Entry (jingle) 4" path="treasure room discover_03.ogg" loop="false" />
+	<track name="Template Soundtrack Challenge Room Entry (jingle)" path="Ambush jingle.V2_01.ogg" loop="false" />
+	<track name="Template Soundtrack Challenge Room Outro (jingle)" path="Ambush Jinle outro V3_04.ogg" loop="false" />
+	<track name="Template Soundtrack Devil Room appear (jingle)" path="Satan Room Appear V2_01.ogg" loop="false" />
+	<track name="Template Soundtrack Boss Death Alternate (jingle)" path="Cerebrum Dispersio (boss alt) end.ogg" loop="false" />
+	<track name="Template Soundtrack Boss Hush Death (jingle)" path="Morituros (dead womb boss) outro.ogg" loop="false" />
+    
+    
+    
+    
+    <!-- Repentance -->
+    <!-- Floors -->
+    <track name="Template Soundtrack Utero" path="Utero.ogg" layer="Utero Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Downpour" path="Downpour.ogg" layer="Downpour Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Dross" path="Sewer.ogg" layer="Sewer Heavy.ogg" loop="true" layermode="2" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Mines" path="Mines.ogg" layer="Mines Heavy.ogg" loop="true" layermode="2" mul="1.15" layermul="1.35" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Ashpit" intro="Ash Pit Intro.ogg" path="Ash Pit.ogg" layerintro="Ash Pit Heavy Intro.ogg" layer="Ash Pit Heavy.ogg" loop="true" layermode="2" mul="1.55" layermul="1.75" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Mausoleum" path="Mausoleum.ogg" layer="Mausoleum Heavy.ogg" loop="true" layermode="2" layermul="1.2" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Gehenna" path="Gehenna.ogg" layer="Gehenna Heavy.ogg" loop="true" layerfadespeed="0.005" mul="1.5" layermul="1.75" />
+	<track name="Template Soundtrack Corpse" path="Corpse.ogg" layer="Corpse Layer.ogg" loop="true" layerfadespeed="0.005" />
+	<track name="Template Soundtrack Home" path="Echoes Of Mom.ogg" layer="Echoes of Mom Twisted V2.ogg" loop="true" layerfadespeed="0.005" layermode="2" />
+	<track name="Template Soundtrack Echoes Reverse" path="echoes of mom twisted v2.ogg" loop="true" />
+	
+    <!-- Rooms/Areas -->
+    <track name="Template Soundtrack Planetarium" path="Planetarium.ogg" loop="true" />
+	<track name="Template Soundtrack Secret Room Alt" path="Secret Room ALT.ogg" loop="true" />
+	<track name="Template Soundtrack Secret Room Alt Alt" intro="Super Secret Room Intro.ogg" path="Super Secret Room Loop.ogg" loop="true" />
+	<track name="Template Soundtrack Boss Room (empty, twisted)" intro="The Calm Twisted V4 Intro.ogg" path="The Calm Twisted V4 Loop.ogg" loop="true" mul="1.2" />
+	<track name="Template Soundtrack Abandoned Mineshaft" path="Vast Empty Chasm.ogg" loop="true" />
+	<track name="Template Soundtrack Mineshaft Escape" path="Chased By Death V3.ogg" loop="true" />
+	
+    <!-- Fights -->
+    <track name="Template Soundtrack Boss (alternate alternate)" path="Boss ALT.ogg" loop="true" />
+	<track name="Template Soundtrack Boss (Hush Phase 1)" path="Chest Fight.ogg" loop="true" />
+    <track name="Template Soundtrack Boss Rush" path="Boss Rush.ogg" loop="true" />
+    <track name="Template Soundtrack Boss (Mother)" path="MOTHER_BOSS_V6.ogg" loop="true" mul="1.25" />
+	<track name="Template Soundtrack Boss (Dogma)" path="Static Boss Light V2.ogg" loop="true" layermode="2" layerfadespeed="0.008">
+		<layer path="Static Boss V2 with Preachers V3.ogg" mul="1.2" />
+		<layer path="Static.ogg" mul="1" />
+	</track>
+	<track name="Template Soundtrack Boss (Beast)" path="The_End_FAMINE.ogg" loop="true" layermode="2" layerfadespeed="0.01" mul="1.5">
+		<layer path="The_End_PESTILENCE.ogg" mul="1.5" />
+		<layer path="The_End_WAR.ogg" mul="1.5" />
+		<layer path="The_End_DEATH.ogg" mul="1.5" />
+		<layer path="The_End_BEAST.ogg" mul="2" />
+	</track>
+    
+    <!-- Mirror Dimension -->
+    <track name="Template Soundtrack Downpour (reversed)" path="Downpour Reverse.ogg" loop="true" />
+	<track name="Template Soundtrack Dross (reversed)" path="Dross Reverse.ogg" loop="true" mul="1.2" />
+    
+    <!-- Ascent -->
+    <track name="Template Soundtrack Genesis (reversed)" path="Genesis ii Reverse Main Loop.ogg" loop="true" mul="1.2">
+		<layer path="Genesis ii Reverse Basement Layer (Drums).ogg" mul="1.2" />
+		<layer path="Genesis ii Reverse Caves Layer (Bass).ogg" mul="1.2" />
+		<layer path="Genesis ii Reverse Depths Layer (Guitar).ogg" mul="1.2" />
+		<layer path="Genesis ii Reverse Downpour Layer (Guitar).ogg" mul="1.2" />
+		<layer path="Genesis ii Reverse Mines Layer (Drumz).ogg" mul="1.2" />
+		<layer path="Genesis ii Reverse Mausoleum Layer (Bass).ogg" mul="1.2" />
+	</track>
+    
+    <!-- Jingles -->
+	<track name="Template Soundtrack Boss Rush (jingle)" path="Ambush Jinle outro V3_04.ogg" loop="false" />
+	<track name="Template Soundtrack Boss Death Alternate Alternate (jingle)" path="Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
+	<track name="Template Soundtrack Mom's Shadow Intro" path="Moms_Shadow_Cut_Scene.ogg" loop="false" />
+    <track name="Template Soundtrack Strange Door (jingle)" path="Genesis_SFX_Jingle.ogg" loop="false" />
+    <track name="Template Soundtrack Dogma Intro" path="Dogma_static_Cut_Scene_V5.ogg" loop="false" mul="1.5" />
+    <track name="Template Soundtrack Boss Mother Death (jingle)" path="Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
+	<track name="Template Soundtrack Boss Dogma Death (jingle)" path="Static Boss Light V2 Jingle.ogg" loop="false" mul="1.5" />
+	<track name="Template Soundtrack Boss Beast Death (jingle)" path="Alt Boss Track Jingle.ogg" loop="false" mul="2.2" />
+	
+    <!-- Death -->
+    <track name="Template Soundtrack Game Over (jingle)" path="Isaac Died_02.ogg" loop="false" />
+    <track name="Template Soundtrack Game Over" path="You Died.ogg" loop="true" />
+    
+    
+    <!-- Repentogon -->
+    <track name="Template Soundtrack Main Menu" intro="Genesis Retake Light Intro.ogg" path="Genesis Retake Light Loop.ogg" layerintro="Genesis Retake Twisted Intro.ogg" layer="Genesis Retake Twisted Loop.ogg" loop="true" layermode="2" layerfadespeed="0.01" />
+	<!-- 
+	if you don't need the 'tainted' menu to have different music
+    than the regular menu remove all the 'layer' fields, e.g.
+    <track name="Template Soundtrack Main Menu" intro="Genesis Retake Light Intro.ogg" path="Genesis Retake Light Loop.ogg" loop="true" />
+    -->
+    <track name="Template Soundtrack Run Start" path="Title Screen jingle V1_01.ogg" loop="false" />
+    <track name="Template Soundtrack Tainted Run Start" path="Title Screen Stinger MB.ogg" loop="false" />
+    <track name="Template Soundtrack Nightmare" path="boss fight intro jingle_01.ogg" loop="false" />
+	<track name="Template Soundtrack Dogma Nightmare" path="Nightmare_V4.ogg" loop="false" />
+    <track name="Template Soundtrack Death Certificate" path="Echoes Reverse.ogg" loop="true" />
+    <track name="Template Soundtrack Deathmatch" path="Deathmatch.ogg" loop="true" />
+    
+    <!-- 
+    --optional bonus jingles
+    --if these aren't set they'll just copy the regular secret find jingle
+    <track name="Template Soundtrack Super Secret Room Find (jingle)"
+    <track name="Template Soundtrack Ultra Secret Room Find (jingle)"
+    
+    --optional bonus fights
+    --if these aren't set they'll just copy the challenge music/jingles
+    <track name="Template Soundtrack Boss Challenge Start (jingle)"
+    <track name="Template Soundtrack Boss Challenge Room (fight)" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Boss Challenge Outro (jingle)"
+    <track name="Template Soundtrack Miniboss Fight Start (jingle)"
+    <track name="Template Soundtrack Miniboss (fight)" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Miniboss Fight Outro (jingle)"
+    <track name="Template Soundtrack Boss Rush Start (jingle)"
+    
+    --optional bonus floor tracks
+    --if these aren't set the game will just copy floor music from above
+    <track name="Template Soundtrack Basement II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Cellar II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Burning Basement II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Caves II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Catacombs II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Flooded Caves II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Depths II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Necropolis II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Dank Depths II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Womb/Utero II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Scarred Womb II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Utero II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Downpour II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Dross II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Mines II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Ashpit II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Mausoleum II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Gehenna II" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Corpse II" path=".ogg" loop="true" />
+    
+    --optional bonus room tracks
+    --if these aren't set the rooms will just play the music of the current floor
+    <track name="Template Soundtrack Treasure Room" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Curse Room" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Sacrifice Room" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Crawl Space" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Isaac's Bedroom" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Barren Bedroom" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Vault Room" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Dice Room" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Black Market" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Error Room" path=".ogg" loop="true" />
+    
+    --optional safe boss room tracks
+    --Alt is used when the Alt boss theme is played, AltAlt is used in repentance alt floors
+    --if these aren't set it will just play the regular boss room empty track
+    <track name="Template Soundtrack Boss Room (empty, Alt)" path=".ogg" loop="true" />
+    <track name="Template Soundtrack Boss Room (empty, Alt Alt)" path=".ogg" loop="true" />
+    -->
 </music>

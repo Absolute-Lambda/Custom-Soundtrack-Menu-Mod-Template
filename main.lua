@@ -1,5 +1,37 @@
-SoundtrackModTemplate = RegisterMod("Template Soundtrack", 1)
-TemplateTrackList = {
+local SoundtrackMod = RegisterMod("Template Soundtrack", 1)
+
+--[[
+
+Track list for jukebox
+
+DO NOT DELETE ENTRIES FROM THE MIDDLE OF THE LIST
+OR ADD EXTRA ENTRIES OR REARRANGE THE ORDER OF THE
+ENTRIES, THAT WILL MESS UP JUKEBOX,
+if a track is unused by your soundtrack just set it to "[Rebirth]",
+if a track is silent set it as "[Silent]",
+
+you can delete the ones on the bottom if they're all unused
+to make the list shorter, you just can't change the order
+e.g. deleting the bottom 10 is ok, but deleting the
+first line will cause all the titles to be wrong
+
+if you have variants in your soundtrack each variant of a track
+needs to be set as a list by wrapping them in { } brackets, e.g.
+
+{"basement1","basement2","basement3"}, --Basement
+{"cellar1","cellar2"}, --Cellar
+
+or like this
+
+{"basement1", --Basement 1
+"basement2", --Basement 2
+"basement3"}, --Basement 3
+{"cellar1", --Cellar 1
+"cellar2"}, --Cellar 2
+
+]]
+
+local SoundtrackSongList = {
     "Diptera Sonata", --Basement
     "Periculum", --Cellar
     "Fundamentum", --Burning Basement
@@ -102,13 +134,67 @@ TemplateTrackList = {
     "Genesis Retake Light", --Main Menu
     "Echoes Reverse", --Death Certificate
     "There Can Be Only One", --Deathmatch
+
+    "[Rebirth]", --Super Secret Room Find
+    "[Rebirth]", --Ultra Secret Room Find
+    "[Rebirth]", --Boss Challenge Start
+    "[Rebirth]", --Boss Challenge Room
+    "[Rebirth]", --Boss Challenge Outro
+    "[Rebirth]", --Miniboss Fight Start
+    "[Rebirth]", --Miniboss Fight
+    "[Rebirth]", --Miniboss Fight Outro
+    "[Rebirth]", --Boss Rush Start
+    
+    --optional floor and room music
+    "[Rebirth]", --Basement II
+    "[Rebirth]", --Cellar II
+    "[Rebirth]", --Burning Basement II
+    "[Rebirth]", --Caves II
+    "[Rebirth]", --Catacombs II
+    "[Rebirth]", --Flooded Caves II
+    "[Rebirth]", --Depths II
+    "[Rebirth]", --Necropolis II
+    "[Rebirth]", --Dank Depths II
+    "[Rebirth]", --Womb II
+    "[Rebirth]", --Scarred Womb II
+    "[Rebirth]", --Utero II
+    "[Rebirth]", --Downpour II
+    "[Rebirth]", --Dross II
+    "[Rebirth]", --Mines II
+    "[Rebirth]", --Ashpit II
+    "[Rebirth]", --Mausoleum II
+    "[Rebirth]", --Gehenna II
+    "[Rebirth]", --Corpse II
+
+    "[Rebirth]", --Treasure Room
+    "[Rebirth]", --Curse Room
+    "[Rebirth]", --Sacrifice Room
+    "[Rebirth]", --Crawl Space
+    "[Rebirth]", --Isaac's Bedroom
+    "[Rebirth]", --Barren Bedroom
+    "[Rebirth]", --Vault Room
+    "[Rebirth]", --Dice Room
+    "[Rebirth]", --Black Market
+    "[Rebirth]", --Error Room
+    
+    "[Rebirth]", --Boss Room (empty, Alt)
+    "[Rebirth]", --Boss Room (empty, Alt Alt)
 }
-function SoundtrackModTemplate:startGame()
+
+function SoundtrackMod:StartGame()
 	if SoundtrackSongList then
-		AddSoundtrackToMenu("Template Soundtrack")
-	if Titles then
-		AddTitlesToJukebox("Template Soundtrack", "Template Soundtrack", "Template Soundtrack", TemplateTrackList)
-		end
+		--add soundtrack to menu
+        AddSoundtrackToMenu("Template Soundtrack")
+        if Titles then
+            --add track list to jukebox
+            AddTitlesToJukebox("Template", "Template Soundtrack", "My Template Soundtrack", SoundtrackSongList)
+            --first text is a tag to identify the soundtrack, letters and numbers only, no spaces or symbols
+			--second text is the same as the text in the 'AddSoundtrackToMenu' function above
+			--third text is what the jukebox label should display
+			
+            --so for example if the soundtrack was 'Castlevania: Symphony of the Night' you could do something like
+			--AddTitlesToJukebox("CastlevaniaSOTN", "Symphony of the Night", "Castlevania: Symphony of the Night", SOTNsongList)
+        end
 	end
 end
-SoundtrackModTemplate:AddCallback(ModCallbacks.MC_POST_GAME_STARTED, SoundtrackModTemplate.startGame)
+SoundtrackMod:AddCallback(ModCallbacks.MC_POST_GAME_STARTED, SoundtrackMod.StartGame)

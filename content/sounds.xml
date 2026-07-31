@@ -1,30 +1,42 @@
-<sounds root="sfx/">
+<!--
+Note: Use CTRL+H (If in notepad++) to replace instances of 
+"Template Soundtrack" with whatever your mod is called
 
-	<!-- Note: Use CTRL+H (If in notepad++) to replace instances of "Template Soundtrack" with whatever your mod is called -->
+If you don't have any sound effects for your soundtrack
+just delete this file and the sfx folder in resources
 
-    <!-- Template Soundtrack -->
-	<sound name="Template Soundtrack Treasure Room Entry (jingle) 1">
-		<sample weight="1" path="Template Soundtrack/treasure room discovera.wav" />
+if you do have sound effects setting up the sounds.xml is
+optional, but nice to do as it makes your soundtrack a bit
+more compatible with MMC
+
+to do this just make copies of your 'jingles', convert 
+the copies to .wav format and put them in the sfx folder
+then list them by filename here
+-->
+
+<sounds root="sfx/Template Soundtrack/">
+    <sound name="Template Soundtrack Treasure Room Entry (jingle) 1">
+		<sample weight="1" path="treasure room discovera.wav" />
 	</sound>
 	<sound name="Template Soundtrack Treasure Room Entry (jingle) 2">
-		<sample weight="1" path="Template Soundtrack/treasure room discoverb.wav" />
+		<sample weight="1" path="treasure room discoverb.wav" />
 	</sound>
 	<sound name="Template Soundtrack Treasure Room Entry (jingle) 3">
-		<sample weight="1" path="Template Soundtrack/treasure room discoverc.wav" />
+		<sample weight="1" path="treasure room discoverc.wav" />
 	</sound>
 	<sound name="Template Soundtrack Treasure Room Entry (jingle) 4">
-		<sample weight="1" path="Template Soundtrack/treasure room discover_03.wav" />
+		<sample weight="1" path="treasure room discover_03.wav" />
 	</sound>
 	<sound name="Template Soundtrack Secret Room Find (jingle)">
-		<sample weight="1" path="Template Soundtrack/secret room find v2_07.wav" />
+		<sample weight="1" path="secret room find v2_07.wav" />
 	</sound>
 	<sound name="Template Soundtrack Devil Room appear (jingle)">
-		<sample weight="1" path="Template Soundtrack/satan room appear v2_01.wav" />
+		<sample weight="1" path="satan room appear v2_01.wav" />
 	</sound>
 	<sound name="Template Soundtrack Holy Room Find (jingle)">
-		<sample weight="1" path="Template Soundtrack/choir.wav" />
+		<sample weight="1" path="choir.wav" />
 	</sound>
 	<sound name="Template Soundtrack Strange Door (jingle)">
-		<sample weight="1" path="Template Soundtrack/genesis_sfx_jingle.wav" />
+		<sample weight="1" path="genesis_sfx_jingle.wav" />
 	</sound>
 </sounds>

@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<name>Soundtrack Mod Template</name>
-	<directory>soundtrackmodtemplate</directory>
-	<description/>
-	<version>1.0</version>
-	<visibility/>
+    <name>Soundtrack Mod Template</name>
+    <directory>soundtrackmodtemplate</directory>
+    <description>Soundtrack Description</description>
+    <version>1.0</version>
+    <visibility>Public</visibility>
+    <tag id="Music"/>
 </metadata>
-
