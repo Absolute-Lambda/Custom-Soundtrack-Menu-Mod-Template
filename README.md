@@ -54,6 +54,9 @@ Click 'Upload Mod' and you're done.
 
 
 # Troubleshooting
+
+If your game crashes on startup it's probably an issue with the music.xml file, try pasting your code into https://codebeautify.org/xmlvalidator and see if it points anything out, if you still can't indentify and fix the problem try going back to the template code and then update it in sections, adding several songs and then testing, if it crashes again you should at least know exactly where the issue is.
+
 Make sure the text in the AddSoundtrackToMenu function in the main.lua is the same as the text at the start of the track names in the music.xml
 e.g. if main.lua has AddSoundtrackToMenu("Diablo II") and music.xml has <track name="Diablo 2 Basement" then it won't find the tracks because it's looking for tracks that have 'Diablo II' at the start not 'Diablo 2'.
 
